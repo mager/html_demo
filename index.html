@@ -6,24 +6,29 @@
     <style media="screen">
       .container {
         width: 980px;
-        border: 1px solid red;
         padding: 20px;
         margin: 20px auto;
       }
-      h1 {
-        margin-top: 0;
+      .spot img {
+        width: 200px;
+        height: 200px;
       }
     </style>
   </head>
   <body>
   <div class="container">
-    <h1>Andy's home page</h1>
-    <p>
-      <em>Bio:</em> Living in San Francisco, working at Postmates, exploring the world.
-    </p>
-    <div>
-      <img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/12292828_1940665286158094_943752775_a.jpg" alt="" />
-    </div>
+    <header>
+      <h1>Andy Perry<span> - SF, Postmates, Vegan</span></h1>
+    </header>
+    <section>
+      <div class="spot">
+        <a href="https://www.instagram.com/p/BCEMIfty7me/" target="_blank">
+          <img src="insta.jpg" />
+        </a>
+      </div>
+    </section>
   </div>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="js/application.js"></script>
   </body>
 </html>
